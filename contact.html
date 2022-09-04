@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic HTML Project</title>
+    <link rel="icon" href="./assets/favicon.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html"> Contact Us</a></li>
+            </ul>
+        </nav>
+        <center>
+            <h1>You are currently on: Contact Us</h1>
+        </center>
+    </header>
+    <section id="contact">
+        <center><img src="./assets/contact.jpg" alt="About"></center>
+        <center> 
+        <form action="./home.html">
+                <div>
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <br>
+                    <div>
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="tel" name="phone" placeholder="Phone" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="subject">Subject</label>
+                        <input id="subject" type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <br>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+        </form>
+    </center>
+    </section>
+</body>
+
+</html>
